@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: e-schultz/gatsby-mdx-netlify-cms-startergit
+  repo: e-schultz/gatsby-mdx-netlify-cms-starter
   branch: master
 
 media_folder: uploads/img
