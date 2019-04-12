@@ -1,6 +1,6 @@
 ---
+templateKey: home-page
 title: Home Page
-templateKey: "home-page"
 sections:
   - body: >-
       Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Cras ornare
@@ -9,9 +9,8 @@ sections:
       sed interdum neque, in accumsan massa. Nullam facilisis magna et mauris
       laoreet tempor. Nulla non urna vel ligula suscipit bibendum vel sit amet
       mi. Pellentesque vulputate diam ac convallis euismod. Duis porta diam vel
-      pellentesque malesuada
-      <CallToAction url="/cms-unreachable" align="center" bgColor="crimson">A Pure MDX Page</CallToAction>
-
+      pellentesque malesuada <CallToAction url="/cms-unreachable" align="center"
+      bgColor="crimson">A Pure MDX Page</CallToAction>
     title: Section 1
   - body: >-
       Nam lobortis quam a pretium eleifend. Integer eleifend convallis tempus.
@@ -35,12 +34,19 @@ sections:
       * Item 6
       * Item 7
     title: Section 3
-  - body: |-
+  - body: >-
       > A blockquote here
 
+
       ```
+
       A code block here
+
       ```
+
+
+      <CallToAction url="https://rangle.io/blog" align="center"
+      bgColor="seagreen">Click me</CallToAction>
     title: Section 4
 ---
 
